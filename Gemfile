@@ -25,3 +25,5 @@ gem "builder", "~> 3.0"
 gem "susy"
 
 gem "middleman-blog"
+
+gem "middleman-gh-pages"
