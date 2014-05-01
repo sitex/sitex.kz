@@ -28,7 +28,7 @@ end
 page "/feed.xml", :layout => false
 
 # Reloads browser whenever middleman re-builds
-activate :livereload
+activate :livereload, :host => "localhost"
 
 # Pretty URLs
 activate :directory_indexes
@@ -109,3 +109,23 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+configure :development do
+  activate :disqus do |d|
+    d.shortname = false
+  end
+end
+
+configure :build do
+  activate :disqus do |d|
+    d.shortname = "primer"
+  end
+end
+
+
+set :haml, { ugly: true }
+
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
+
+activate :syntax, :line_numbers => true

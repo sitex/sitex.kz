@@ -24,6 +24,12 @@ gem "builder", "~> 3.0"
 # Styles
 gem "susy"
 
+gem "redcarpet"
+
 gem "middleman-blog"
 
 gem "middleman-gh-pages"
+
+gem "middleman-disqus"
+
+gem "middleman-syntax"
