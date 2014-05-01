@@ -1,0 +1,31 @@
+---
+title: "Вертикальный ритм на Compass"
+date: 2014-05-01
+author: Ivan Samorodov
+category: News
+tags: 
+- frontend
+- css
+- sass
+- compass
+---
+
+
+Create a vertical rhythm for your site by setting the **$base-font-size** and **$base-line-height** variables and then including the **establish-baseline** mixin at the root of your document.
+
+```sass
+$base-font-size: 16px
+$base-line-height: 24px
+@include establish-baseline
+```
+
+### Mixins
+
+- **leader**($lines, $font-size, $property)
+- **trailer**($lines, $font-size, $property)
+
+### Links
+
+- [Vertical Rhythm](http://compass-style.org/reference/compass/typography/vertical_rhythm/)
+- [Vertical Rhythm with Compass](http://atendesigngroup.com/blog/vertical-rhythm-compass)
+- [Improving Layout With Vertical Rhythm](http://webdesign.tutsplus.com/articles/improving-layout-with-vertical-rhythm--webdesign-14070)
