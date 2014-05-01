@@ -25,17 +25,3 @@ h1 {
 h2 { font-weight: bold; }
 em { font-style: italic; }
 strong { font-weight: bold; }
-
-pre {
-  background-color: tint($grey, 50);
-  border: 1px solid $grey;
-  padding: 1em;
-
-  word-break: break-all;
-  word-wrap: break-word;
-  white-space: pre;
-  white-space: pre-wrap;
-
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  @include adjust-font-size-to(13px, 1, 15px);
-}

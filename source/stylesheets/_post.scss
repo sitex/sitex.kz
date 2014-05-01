@@ -6,6 +6,9 @@
 .post {
   max-width: $line_width;
   p { @include margin-trailer(1); }
-  .meta { color: tint($black, 40); }
+  .meta { 
+  	color: tint($black, 40); 
+  	margin-bottom: 1.5em;
+  }
   img { max-width: 100%; }
 }
