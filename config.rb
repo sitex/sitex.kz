@@ -14,14 +14,14 @@ activate :blog do |blog|
   # blog.taglink = "tags/:tag.html"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
-  # blog.year_link = ":year.html"
-  # blog.month_link = ":year/:month.html"
-  # blog.day_link = ":year/:month/:day.html"
-  # blog.default_extension = ".markdown"
+  blog.year_link = ":year.html"
+  blog.month_link = ":year/:month.html"
+  blog.day_link = ":year/:month/:day.html"
+  blog.default_extension = ".md"
   # blog.calendar_template = "calendar.html"
-  # blog.paginate = true
-  # blog.per_page = 10
-  # blog.page_link = "page/:num"
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = "page/:num"
 end
 
 # Feed
@@ -42,7 +42,7 @@ require 'susy'
 
 # Change Compass configuration
 # compass_config do |config|
-#   config.output_style = :compact
+#   config.sass_options = {:debug_info => true}
 # end
 
 ###
@@ -129,3 +129,4 @@ set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 activate :syntax, :line_numbers => true
+
