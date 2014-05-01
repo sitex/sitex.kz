@@ -8,9 +8,13 @@
   border-right: 10px solid $grey;
   padding: 2em;
 
+  h1,h2 {
+    @include margin-trailer(1);
+  }
+
   ul {
     list-style: disc inside;
-    margin: 1em 0;
+    @include margin-trailer(1);
     > li {
       margin-bottom: 0.5em;
     }

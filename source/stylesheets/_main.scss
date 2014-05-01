@@ -3,27 +3,28 @@
  * 
  * @author Fred Stevens-Smith (@fredsters_s) while working on @RainforestQA
  */
-body {
-	font-size: 20px;
-}
-
 .main {
 	padding: 2em;
 }
 
-h1,h2,h3 {
+#{headings()} {
 	font-family: "PT Serif";
+	font-weight: 700;
 }
 
-h1,h2 {
-	a {
-		color: $blue;
-		text-decoration: none;
-		border-bottom: 1px solid $blue;
-	}
+a {
+	color: $blue;
+	text-decoration: none;
+	border-bottom: 1px solid $blue;
 }
 
 td {
 	vertical-align: top;
 }
 
+div.highlight {
+	@include adjust-font-size-to(16px);
+	@include margin-trailer(1);
+	font-family: "PT Serif";
+	font-weight: 400;
+}

@@ -5,10 +5,10 @@
  */
 .post {
   max-width: $line_width;
-  p { @include margin-trailer(1); }
   .meta { 
   	color: tint($black, 40); 
-  	margin-bottom: 1.5em;
+	@include margin-leader(1);
   }
   img { max-width: 100%; }
+  p,.meta,ul{@include rhythm(0,0,0,1,20px)}
 }
