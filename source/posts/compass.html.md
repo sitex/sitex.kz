@@ -2,7 +2,7 @@
 title: "Вертикальный ритм на Compass"
 date: 2014-05-01
 author: Ivan Samorodov
-category: News
+category: FrontEnd
 tags: 
 - frontend
 - css

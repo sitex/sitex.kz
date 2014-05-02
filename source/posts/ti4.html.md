@@ -1,8 +1,8 @@
 ---
-title: "The International 4"
+title: "The International IV"
 date: 2014-05-01
 author: Ivan Samorodov
-category: News
+category: Primer
 tags: 
 - primer
 ---
@@ -10,4 +10,4 @@ tags:
 
 ### Links
 
-- [The International 4](http://www.dota2.com/international/announcement//)
+- [The International IV](http://www.dota2.com/international/announcement//)

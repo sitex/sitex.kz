@@ -1,13 +1,8 @@
 ---
-title: "Вертикальный ритм на Compass"
+title: "Иван Самородов"
 date: 2014-05-01
 author: Ivan Samorodov
-category: News
-tags: 
-- compass
 ---
-
-## Иван Самородов
 
 ### Разработка Интернет-проектов
 
