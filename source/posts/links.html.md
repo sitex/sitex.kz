@@ -7,6 +7,13 @@ tags:
 - links
 ---
 
+## 02 May 2014
+
+- [Zend - Recorded Webinars](http://www.zend.com/en/resources/webinars/)
+- [Joey Trapp](https://twitter.com/joeytrapp)
+- [Thomas Fuchs](http://mir.aculo.us/)
+
+
 ## 01 May 2014
 
 - [Tell a story on Medium today](https://medium.com)
@@ -15,10 +22,3 @@ tags:
 
 ### Webdev Blogger
 - [Steve McKinney](http://iamsteve.me/about)
-
-## 02 May 2014
-
-### Webdev Blogger
-
-- [Thomas Fuchs](http://mir.aculo.us/)
-- [Joey Trapp](https://twitter.com/joeytrapp)
