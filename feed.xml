@@ -5,7 +5,7 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-05-02T00:00:00+06:00</updated>
+  <updated>2014-05-01T18:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
@@ -13,8 +13,8 @@
     <title>WebComponents</title>
     <link rel="alternate" href="http://blog.url.com/2014-05-02-webcomponents"/>
     <id>http://blog.url.com/2014-05-02-webcomponents</id>
-    <published>2014-05-02T00:00:00+06:00</published>
-    <updated>2014-05-02T14:28:19+06:00</updated>
+    <published>2014-05-01T18:00:00+00:00</published>
+    <updated>2014-05-02T20:15:14+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -46,8 +46,8 @@
     <title>Discourse</title>
     <link rel="alternate" href="http://blog.url.com/2014-05-02-discourse"/>
     <id>http://blog.url.com/2014-05-02-discourse</id>
-    <published>2014-05-02T00:00:00+06:00</published>
-    <updated>2014-05-02T14:27:31+06:00</updated>
+    <published>2014-05-01T18:00:00+00:00</published>
+    <updated>2014-05-02T20:15:14+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -64,8 +64,8 @@
     <title>Ember.js</title>
     <link rel="alternate" href="http://blog.url.com/2014-05-02-emberjs"/>
     <id>http://blog.url.com/2014-05-02-emberjs</id>
-    <published>2014-05-02T00:00:00+06:00</published>
-    <updated>2014-05-02T14:27:44+06:00</updated>
+    <published>2014-05-01T18:00:00+00:00</published>
+    <updated>2014-05-02T20:15:14+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -87,11 +87,43 @@
 </content>
   </entry>
   <entry>
+    <title>Вертикальный ритм на Compass</title>
+    <link rel="alternate" href="http://blog.url.com/2014-05-01-compass"/>
+    <id>http://blog.url.com/2014-05-01-compass</id>
+    <published>2014-04-30T18:00:00+00:00</published>
+    <updated>2014-05-02T20:15:14+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Create a vertical rhythm for your site by setting the &lt;strong&gt;$base-font-size&lt;/strong&gt; and &lt;strong&gt;$base-line-height&lt;/strong&gt; variables and then including the &lt;strong&gt;establish-baseline&lt;/strong&gt; mixin at the root of your document.&lt;/p&gt;
+&lt;div class="highlight sass"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;pre class="lineno"&gt;2&lt;/pre&gt;&lt;pre class="lineno"&gt;3&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$base-font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;16px&lt;/span&gt;
+&lt;span class="nv"&gt;$base-line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;24px&lt;/span&gt;
+&lt;span class="k"&gt;@include&lt;/span&gt; &lt;span class="nd"&gt;establish-baseline&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Mixins&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;leader&lt;/strong&gt;($lines, $font-size, $property)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;trailer&lt;/strong&gt;($lines, $font-size, $property)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://compass-style.org/reference/compass/typography/vertical_rhythm/"&gt;Vertical Rhythm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://atendesigngroup.com/blog/vertical-rhythm-compass"&gt;Vertical Rhythm with Compass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://webdesign.tutsplus.com/articles/improving-layout-with-vertical-rhythm--webdesign-14070"&gt;Improving Layout With Vertical Rhythm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
     <title>Ссылки</title>
     <link rel="alternate" href="http://blog.url.com/2014-05-01-links"/>
     <id>http://blog.url.com/2014-05-01-links</id>
-    <published>2014-05-01T00:00:00+06:00</published>
-    <updated>2014-05-02T14:30:14+06:00</updated>
+    <published>2014-04-30T18:00:00+00:00</published>
+    <updated>2014-05-02T20:15:14+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -123,8 +155,8 @@
     <title>Middleman</title>
     <link rel="alternate" href="http://blog.url.com/2014-05-01-middleman"/>
     <id>http://blog.url.com/2014-05-01-middleman</id>
-    <published>2014-05-01T00:00:00+06:00</published>
-    <updated>2014-05-02T16:10:36+06:00</updated>
+    <published>2014-04-30T18:00:00+00:00</published>
+    <updated>2014-05-02T20:15:14+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -147,22 +179,6 @@
 &lt;ul&gt;
 &lt;li&gt;ML&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The International IV</title>
-    <link rel="alternate" href="http://blog.url.com/2014-05-01-ti4"/>
-    <id>http://blog.url.com/2014-05-01-ti4</id>
-    <published>2014-05-01T00:00:00+06:00</published>
-    <updated>2014-05-02T14:28:12+06:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;h3&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.dota2.com/international/announcement//"&gt;The International IV&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>
