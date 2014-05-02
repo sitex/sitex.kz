@@ -1,0 +1,9 @@
+//
+// Pages template.
+//
+- if current_resource
+  = wrap_layout :layout do
+    .post
+      %h1= current_resource.metadata[:page]['title']
+      = yield
+      = disqus

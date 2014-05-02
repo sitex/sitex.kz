@@ -1,0 +1,30 @@
+/**
+ * Main
+ * 
+ * @author Fred Stevens-Smith (@fredsters_s) while working on @RainforestQA
+ */
+.main {
+	padding: 2em;
+}
+
+#{headings()} {
+	font-family: "PT Serif";
+	font-weight: 700;
+}
+
+a {
+	color: $blue;
+	text-decoration: none;
+	border-bottom: 1px solid $blue;
+}
+
+td {
+	vertical-align: top;
+}
+
+div.highlight {
+	@include adjust-font-size-to(16px);
+	@include margin-trailer(1);
+	font-family: "PT Serif";
+	font-weight: 400;
+}

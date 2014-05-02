@@ -1,0 +1,23 @@
+/**
+ * Typography
+ * 
+ * @author Fred Stevens-Smith (@fredsters_s) while working on @RainforestQA
+ */
+/* Create a sane, standardised baseline */
+$base-font-size: 20px;
+$base-line-height: 25px;
+@include establish-baseline;
+
+body {
+  font-family: $font-family;
+  color: $black;
+}
+
+h1 {
+  font-weight: bold;
+  @include adjust-font-size-to(25px, 1, 20px);
+}
+
+h2 { font-weight: bold; }
+em { font-style: italic; }
+strong { font-weight: bold; }
