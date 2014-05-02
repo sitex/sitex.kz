@@ -132,11 +132,11 @@ configure :build do
     d.shortname = "Sitex Blog"
   end
   ignore 'pages.html'
+  # Write CNAME
+  IO.write "source/CNAME", cname
 end
 
 set :haml, { ugly: true }
 
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
-
-IO.write "source/CNAME", cname
