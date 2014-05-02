@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2014-05-02T00:00:00+06:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>WebComponents</title>
+    <link rel="alternate" href="http://blog.url.com/2014-05-02-webcomponents"/>
+    <id>http://blog.url.com/2014-05-02-webcomponents</id>
+    <published>2014-05-02T00:00:00+06:00</published>
+    <updated>2014-05-02T14:28:19+06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="WebComponents" src="http://x-tags.org/images/webcomponents.png" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Templates&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;template id="mytemplate"&gt;&amp;hellip;&lt;/template&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Shadow DOM&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Encapsulation&lt;/li&gt;
+&lt;li&gt;Hidden elements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?feature=player_detailpage&amp;amp;v=eJZx9c6YL8k"&gt;JSCamp Talk: Eric Bidelman - WebComponents are the Future&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://x-tags.org/"&gt;X-Tag - The Custom Elements Polylib&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://habrahabr.ru/post/210058/"&gt;Web Components — будущее Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Discourse</title>
+    <link rel="alternate" href="http://blog.url.com/2014-05-02-discourse"/>
+    <id>http://blog.url.com/2014-05-02-discourse</id>
+    <published>2014-05-02T00:00:00+06:00</published>
+    <updated>2014-05-02T14:27:31+06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="Discourse" src="http://www.discourse.org/images/logo.png" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.discourse.org"&gt;Discourse&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Ember.js</title>
+    <link rel="alternate" href="http://blog.url.com/2014-05-02-emberjs"/>
+    <id>http://blog.url.com/2014-05-02-emberjs</id>
+    <published>2014-05-02T00:00:00+06:00</published>
+    <updated>2014-05-02T14:27:44+06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="Ember.js" src="http://www.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a?s=400" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://eviltrout.com/2013/02/10/why-discourse-uses-emberjs.html"&gt;Why Discourse uses Ember.js&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Interactivity&lt;/li&gt;
+&lt;li&gt;it&amp;rsquo;s simpler&lt;/li&gt;
+&lt;li&gt;Performance&lt;/li&gt;
+&lt;li&gt;API-First Development&lt;/li&gt;
+&lt;li&gt;String Templates vs. DOM templates (AngularJS)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Ссылки</title>
+    <link rel="alternate" href="http://blog.url.com/2014-05-01-links"/>
+    <id>http://blog.url.com/2014-05-01-links</id>
+    <published>2014-05-01T00:00:00+06:00</published>
+    <updated>2014-05-02T14:30:14+06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2&gt;01 May 2014&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com"&gt;Tell a story on Medium today&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://12devs.co.uk/articles/"&gt;12 Devs Summer Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.whatbrowser.org/intl/ru/"&gt;Какой браузер я использую?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Webdev Blogger&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://iamsteve.me/about"&gt;Steve McKinney&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;02 May 2014&lt;/h2&gt;
+
+&lt;h3&gt;Webdev Blogger&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://mir.aculo.us/"&gt;Thomas Fuchs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/joeytrapp"&gt;Joey Trapp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Middleman</title>
+    <link rel="alternate" href="http://blog.url.com/2014-05-01-middleman"/>
+    <id>http://blog.url.com/2014-05-01-middleman</id>
+    <published>2014-05-01T00:00:00+06:00</published>
+    <updated>2014-05-02T16:10:36+06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="Middleman" src="http://middlemanapp.com/images/mm-blue-w-text.svg" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://middlemanapp.com/"&gt;Documentation for Middleman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/middleman/middleman-guides"&gt;Documentation GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.discovermeteor.com/blog/three-middleman-hacks-were-using-on-this-site/"&gt;Three Middleman Hacks We’re Using On This Site&lt;/a&gt; YAML + HAML = HTML&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown: Syntax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Source&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ngs/sources.ngs.io"&gt;Atsushi Nagase&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ML&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The International IV</title>
+    <link rel="alternate" href="http://blog.url.com/2014-05-01-ti4"/>
+    <id>http://blog.url.com/2014-05-01-ti4</id>
+    <published>2014-05-01T00:00:00+06:00</published>
+    <updated>2014-05-02T14:28:12+06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.dota2.com/international/announcement//"&gt;The International IV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+</feed>
