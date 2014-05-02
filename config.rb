@@ -10,21 +10,22 @@ cname = ({
 
 Time.zone = "Asia/Almaty"
 
+
+
 activate :directory_indexes
 activate :livereload, :host => "localhost"
-activate :i18n, langs: [lang]
+# activate :i18n, langs: [lang]
 activate :syntax, :line_numbers => true
-
 # set :build_dir, "build-#{lang}"
 
 activate :blog do |blog|
-  blog.permalink = ":year-:month-:day-:title"
+  blog.permalink = "/:year/:month/:day/:title.html"
   blog.sources = "posts/:title.html"
   blog.layout = "post"
   blog.tag_template = "tag.html"  
   
   # blog.prefix = "blog"
-  # blog.taglink = "tags/:tag.html"
+  blog.taglink = "tags/:tag.html"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   blog.year_link = ":year.html"
@@ -140,3 +141,4 @@ set :haml, { ugly: true }
 
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
+
