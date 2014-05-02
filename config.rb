@@ -2,7 +2,20 @@
 # Blog settings
 ###
 
+lang = (Bundler.settings['MM_LANG'] || 'en').to_sym
+cname = ({
+  en: 'sitex.kz',
+  ru: 'ru.sitex.kz'
+})[lang]
+
 Time.zone = "Asia/Almaty"
+
+activate :directory_indexes
+activate :livereload, :host => "localhost"
+activate :i18n, langs: [lang]
+activate :syntax, :line_numbers => true
+
+# set :build_dir, "build-#{lang}"
 
 activate :blog do |blog|
   blog.permalink = ":year-:month-:day-:title"
@@ -26,12 +39,6 @@ end
 
 # Feed
 page "/feed.xml", :layout => false
-
-# Reloads browser whenever middleman re-builds
-activate :livereload, :host => "localhost"
-
-# Pretty URLs
-activate :directory_indexes
 
 ### 
 # Compass
@@ -122,15 +129,14 @@ end
 
 configure :build do
   activate :disqus do |d|
-    d.shortname = "primer"
+    d.shortname = "Sitex Blog"
   end
+  ignore 'pages.html'
 end
-
 
 set :haml, { ugly: true }
 
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
 
-activate :syntax, :line_numbers => true
-
+IO.write "source/CNAME", cname
