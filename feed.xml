@@ -11,10 +11,10 @@
   </author>
   <entry>
     <title>WebComponents</title>
-    <link rel="alternate" href="http://blog.url.com/2014-05-02-webcomponents"/>
-    <id>http://blog.url.com/2014-05-02-webcomponents</id>
+    <link rel="alternate" href="http://blog.url.com/2014/05/02/webcomponents.html"/>
+    <id>http://blog.url.com/2014/05/02/webcomponents.html</id>
     <published>2014-05-01T18:00:00+00:00</published>
-    <updated>2014-05-02T20:32:00+00:00</updated>
+    <updated>2014-05-02T21:00:42+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -44,10 +44,10 @@
   </entry>
   <entry>
     <title>Discourse</title>
-    <link rel="alternate" href="http://blog.url.com/2014-05-02-discourse"/>
-    <id>http://blog.url.com/2014-05-02-discourse</id>
+    <link rel="alternate" href="http://blog.url.com/2014/05/02/discourse.html"/>
+    <id>http://blog.url.com/2014/05/02/discourse.html</id>
     <published>2014-05-01T18:00:00+00:00</published>
-    <updated>2014-05-02T20:32:00+00:00</updated>
+    <updated>2014-05-02T21:00:42+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -62,10 +62,10 @@
   </entry>
   <entry>
     <title>Ember.js</title>
-    <link rel="alternate" href="http://blog.url.com/2014-05-02-emberjs"/>
-    <id>http://blog.url.com/2014-05-02-emberjs</id>
+    <link rel="alternate" href="http://blog.url.com/2014/05/02/emberjs.html"/>
+    <id>http://blog.url.com/2014/05/02/emberjs.html</id>
     <published>2014-05-01T18:00:00+00:00</published>
-    <updated>2014-05-02T20:32:00+00:00</updated>
+    <updated>2014-05-02T21:00:42+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -88,10 +88,10 @@
   </entry>
   <entry>
     <title>Вертикальный ритм на Compass</title>
-    <link rel="alternate" href="http://blog.url.com/2014-05-01-compass"/>
-    <id>http://blog.url.com/2014-05-01-compass</id>
+    <link rel="alternate" href="http://blog.url.com/2014/05/01/compass.html"/>
+    <id>http://blog.url.com/2014/05/01/compass.html</id>
     <published>2014-04-30T18:00:00+00:00</published>
-    <updated>2014-05-02T20:32:00+00:00</updated>
+    <updated>2014-05-02T21:00:42+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -120,14 +120,22 @@
   </entry>
   <entry>
     <title>Ссылки</title>
-    <link rel="alternate" href="http://blog.url.com/2014-05-01-links"/>
-    <id>http://blog.url.com/2014-05-01-links</id>
+    <link rel="alternate" href="http://blog.url.com/2014/05/01/links.html"/>
+    <id>http://blog.url.com/2014/05/01/links.html</id>
     <published>2014-04-30T18:00:00+00:00</published>
-    <updated>2014-05-02T20:32:00+00:00</updated>
+    <updated>2014-05-02T21:00:42+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;h2&gt;01 May 2014&lt;/h2&gt;
+    <content type="html">&lt;h2&gt;02 May 2014&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.zend.com/en/resources/webinars/"&gt;Zend - Recorded Webinars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/joeytrapp"&gt;Joey Trapp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://mir.aculo.us/"&gt;Thomas Fuchs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;01 May 2014&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://medium.com"&gt;Tell a story on Medium today&lt;/a&gt;&lt;/li&gt;
@@ -140,23 +148,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://iamsteve.me/about"&gt;Steve McKinney&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2&gt;02 May 2014&lt;/h2&gt;
-
-&lt;h3&gt;Webdev Blogger&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://mir.aculo.us/"&gt;Thomas Fuchs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://twitter.com/joeytrapp"&gt;Joey Trapp&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
   <entry>
     <title>Middleman</title>
-    <link rel="alternate" href="http://blog.url.com/2014-05-01-middleman"/>
-    <id>http://blog.url.com/2014-05-01-middleman</id>
+    <link rel="alternate" href="http://blog.url.com/2014/05/01/middleman.html"/>
+    <id>http://blog.url.com/2014/05/01/middleman.html</id>
     <published>2014-04-30T18:00:00+00:00</published>
-    <updated>2014-05-02T20:32:00+00:00</updated>
+    <updated>2014-05-02T21:00:42+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
