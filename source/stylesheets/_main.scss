@@ -5,12 +5,17 @@
  */
 .main {
 	padding: 2em;
+	h1 {
+		@include margin-trailer(1);
+		text-align: center;
+		text-transform: capitalize;
+	}
 }
 
 #{headings()} {
 	font-family: "PT Serif";
-	font-weight: 700;
-}
+	font-weight: 700
+;}
 
 a {
 	color: $blue;
@@ -27,4 +32,14 @@ div.highlight {
 	@include margin-trailer(1);
 	font-family: "PT Serif";
 	font-weight: 400;
+}
+
+p,h2,h3 {
+	@include margin-trailer(1);
+}
+
+p.date {
+	@include background-image(radial-gradient(center center, #B9D2E5 0%, white 50%));
+	text-align: center;
+	@include adjust-font-size-to(16px, 1, 20px);
 }
