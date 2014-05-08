@@ -5,16 +5,34 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-05-01T18:00:00+00:00</updated>
+  <updated>2014-05-07T18:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Middleman</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/08/2014-05-08-middleman.html"/>
+    <id>http://blog.url.com/2014/05/08/2014-05-08-middleman.html</id>
+    <published>2014-05-07T18:00:00+00:00</published>
+    <updated>2014-05-08T11:37:05+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2&gt;Local Data&lt;/h2&gt;
+
+&lt;p&gt;.yml/.yaml or .json files in a folder called data&lt;/p&gt;
+
+&lt;p&gt;This works for subdirectories as well. If you have a file data/people/tom.yml, you can access it with data.people.tom&lt;/p&gt;
+
+&lt;h2&gt;Template Helpers&lt;/h2&gt;
+</content>
+  </entry>
   <entry>
     <title>WebComponents</title>
     <link rel="alternate" href="http://blog.url.com/2014/05/02/webcomponents.html"/>
     <id>http://blog.url.com/2014/05/02/webcomponents.html</id>
     <published>2014-05-01T18:00:00+00:00</published>
-    <updated>2014-05-02T21:00:42+00:00</updated>
+    <updated>2014-05-08T11:37:05+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -43,29 +61,11 @@
 </content>
   </entry>
   <entry>
-    <title>Discourse</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/02/discourse.html"/>
-    <id>http://blog.url.com/2014/05/02/discourse.html</id>
-    <published>2014-05-01T18:00:00+00:00</published>
-    <updated>2014-05-02T21:00:42+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img alt="Discourse" src="http://www.discourse.org/images/logo.png" /&gt;&lt;/p&gt;
-
-&lt;h3&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.discourse.org"&gt;Discourse&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
     <title>Ember.js</title>
     <link rel="alternate" href="http://blog.url.com/2014/05/02/emberjs.html"/>
     <id>http://blog.url.com/2014/05/02/emberjs.html</id>
     <published>2014-05-01T18:00:00+00:00</published>
-    <updated>2014-05-02T21:00:42+00:00</updated>
+    <updated>2014-05-08T11:37:05+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -87,11 +87,29 @@
 </content>
   </entry>
   <entry>
+    <title>Discourse</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/02/discourse.html"/>
+    <id>http://blog.url.com/2014/05/02/discourse.html</id>
+    <published>2014-05-01T18:00:00+00:00</published>
+    <updated>2014-05-08T11:37:05+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="Discourse" src="http://www.discourse.org/images/logo.png" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.discourse.org"&gt;Discourse&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
     <title>Вертикальный ритм на Compass</title>
     <link rel="alternate" href="http://blog.url.com/2014/05/01/compass.html"/>
     <id>http://blog.url.com/2014/05/01/compass.html</id>
     <published>2014-04-30T18:00:00+00:00</published>
-    <updated>2014-05-02T21:00:42+00:00</updated>
+    <updated>2014-05-08T11:37:05+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -119,65 +137,21 @@
 </content>
   </entry>
   <entry>
-    <title>Ссылки</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/01/links.html"/>
-    <id>http://blog.url.com/2014/05/01/links.html</id>
+    <title>CakePHP</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/01/cakephp.html"/>
+    <id>http://blog.url.com/2014/05/01/cakephp.html</id>
     <published>2014-04-30T18:00:00+00:00</published>
-    <updated>2014-05-02T21:00:42+00:00</updated>
+    <updated>2014-05-08T11:37:05+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;h2&gt;02 May 2014&lt;/h2&gt;
+    <content type="html">&lt;p&gt;&lt;img alt="CakePHP" src="http://cakephp.org/img/cake-logo.png" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;JS&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.zend.com/en/resources/webinars/"&gt;Zend - Recorded Webinars&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://twitter.com/joeytrapp"&gt;Joey Trapp&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://mir.aculo.us/"&gt;Thomas Fuchs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;01 May 2014&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://medium.com"&gt;Tell a story on Medium today&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://12devs.co.uk/articles/"&gt;12 Devs Summer Series&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.whatbrowser.org/intl/ru/"&gt;Какой браузер я использую?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Webdev Blogger&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://iamsteve.me/about"&gt;Steve McKinney&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Middleman</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/01/middleman.html"/>
-    <id>http://blog.url.com/2014/05/01/middleman.html</id>
-    <published>2014-04-30T18:00:00+00:00</published>
-    <updated>2014-05-02T21:00:42+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img alt="Middleman" src="http://middlemanapp.com/images/mm-blue-w-text.svg" /&gt;&lt;/p&gt;
-
-&lt;h3&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://middlemanapp.com/"&gt;Documentation for Middleman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/middleman/middleman-guides"&gt;Documentation GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.discovermeteor.com/blog/three-middleman-hacks-were-using-on-this-site/"&gt;Three Middleman Hacks We’re Using On This Site&lt;/a&gt; YAML + HAML = HTML&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown: Syntax&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Source&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/ngs/sources.ngs.io"&gt;Atsushi Nagase&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ML&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://hantsy.blogspot.com/search/label/CakePHP"&gt;AngularJS CakePHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.slideshare.net/jtrapp07/introduction-to-ember"&gt;Ember.js for a CakePHP Developer&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>
