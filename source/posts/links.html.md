@@ -9,6 +9,7 @@ tags:
 
 ## 02 May 2014
 
+- [VLC Shares](https://code.google.com/p/vlc-shares/)
 - [Zend - Recorded Webinars](http://www.zend.com/en/resources/webinars/)
 - [Joey Trapp](https://twitter.com/joeytrapp)
 - [Thomas Fuchs](http://mir.aculo.us/)
