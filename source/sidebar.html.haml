@@ -1,21 +1,23 @@
 %h1
-	%a{ href: "/" } Sitex
+	%a{ href: "/" } Sitex Blog
 
 %ul
 	%li
-		%a{ href: "/pages/about" } Автор
+		= link_to 'Автор', '/pages/about.html'
 	%li
-		%a{ href: "/pages/services" } Услуги
+		= link_to 'Услуги', '/pages/services.html'
 	%li
-		%a{ href: "/pages/portfolio" } Портфолио
+		= link_to 'Портфолио', '/pages/portfolio.html'
 
 %h2
 	Рубрики
 
 %ul
 	%li
-		%a{ href: "/tags/frontend" } FrontEnd
+		= link_to 'FrontEnd', '/tags/frontend.html'
 	%li
-		%a{ href: "/tags/backend" } BackEnd
+		= link_to 'BackEnd', '/tags/backend.html'
 	%li
-		%a{ href: "/tags/primer" } Primer
+		= link_to 'Primer', '/tags/primer.html'
+	%li
+		= link_to 'Middleman', '/tags/middleman.html'
