@@ -8,16 +8,6 @@ tags:
 - middleman
 ---
 
-![Middleman](http://middlemanapp.com/images/mm-blue-w-text.svg)
-
-## Local Data
-
-.yml/.yaml or .json files in a folder called data
-
-This works for subdirectories as well. If you have a file data/people/tom.yml, you can access it with data.people.tom
-
-## Template Helpers
-
 ## Links
 
 - [Documentation for Middleman](http://middlemanapp.com/)
@@ -28,3 +18,7 @@ This works for subdirectories as well. If you have a file data/people/tom.yml, y
 ## Source
 - [Atsushi Nagase](https://github.com/ngs/sources.ngs.io)
 	- ML
+
+![Middleman](http://middlemanapp.com/images/mm-blue-w-text.svg)
+
+Middleman is a static site generator using all the shortcuts and tools in modern web development

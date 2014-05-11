@@ -10,8 +10,7 @@ tags:
 
 ## Local Data
 
-.yml/.yaml or .json files in a folder called data
-
-This works for subdirectories as well. If you have a file data/people/tom.yml, you can access it with data.people.tom
+Данные можно хранить в файлах типа .yml/.yaml или .json в папке "data". Так же можно использовать вложенные папки. Например, файл "data/people/tom.yml" доступен как "data.people.tom". Для проверки синтаксиса пригодится [Online Parser](http://yaml-online-parser.appspot.com/). Официальная документация [Local Data](http://middlemanapp.com/advanced/local-data/).
 
 ## Template Helpers
+
