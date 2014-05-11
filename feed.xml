@@ -5,154 +5,93 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-05-07T18:00:00+00:00</updated>
+  <updated>2014-05-08T18:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>phpDocumentor</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/09/2014-05-09-phpdoc.html"/>
+    <id>http://blog.url.com/2014/05/09/2014-05-09-phpdoc.html</id>
+    <published>2014-05-08T18:00:00+00:00</published>
+    <updated>2014-05-11T13:46:21+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html"></content>
+  </entry>
+  <entry>
+    <title>ScrumDesk</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/09/2014-05-09-scrum.html"/>
+    <id>http://blog.url.com/2014/05/09/2014-05-09-scrum.html</id>
+    <published>2014-05-08T18:00:00+00:00</published>
+    <updated>2014-05-11T13:46:21+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;Register me for ScrumDesk On-demand (hosted) solution - Gio Vani&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Middleman</title>
     <link rel="alternate" href="http://blog.url.com/2014/05/08/2014-05-08-middleman.html"/>
     <id>http://blog.url.com/2014/05/08/2014-05-08-middleman.html</id>
     <published>2014-05-07T18:00:00+00:00</published>
-    <updated>2014-05-08T11:37:05+00:00</updated>
+    <updated>2014-05-11T13:46:21+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;h2&gt;Local Data&lt;/h2&gt;
 
-&lt;p&gt;.yml/.yaml or .json files in a folder called data&lt;/p&gt;
-
-&lt;p&gt;This works for subdirectories as well. If you have a file data/people/tom.yml, you can access it with data.people.tom&lt;/p&gt;
+&lt;p&gt;Данные можно хранить в файлах типа .yml/.yaml или .json в папке &amp;ldquo;data&amp;rdquo;. Так же можно использовать вложенные папки. Например, файл &amp;ldquo;data/people/tom.yml&amp;rdquo; доступен как &amp;ldquo;data.people.tom&amp;rdquo;. Для проверки синтаксиса пригодится &lt;a href="http://yaml-online-parser.appspot.com/"&gt;Online Parser&lt;/a&gt;. Официальная документация &lt;a href="http://middlemanapp.com/advanced/local-data/"&gt;Local Data&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Template Helpers&lt;/h2&gt;
 </content>
   </entry>
   <entry>
-    <title>WebComponents</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/02/webcomponents.html"/>
-    <id>http://blog.url.com/2014/05/02/webcomponents.html</id>
-    <published>2014-05-01T18:00:00+00:00</published>
-    <updated>2014-05-08T11:37:05+00:00</updated>
+    <title>ngrok</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/08/2014-05-08-ngrok.html"/>
+    <id>http://blog.url.com/2014/05/08/2014-05-08-ngrok.html</id>
+    <published>2014-05-07T18:00:00+00:00</published>
+    <updated>2014-05-11T13:46:21+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;img alt="WebComponents" src="http://x-tags.org/images/webcomponents.png" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;Introspected tunnels to localhost&lt;/p&gt;
 
-&lt;h3&gt;Templates&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ngrok.com/"&gt;ngrok&lt;/a&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;template id="mytemplate"&gt;&amp;hellip;&lt;/template&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Shadow DOM&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Encapsulation&lt;/li&gt;
-&lt;li&gt;Hidden elements&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/watch?feature=player_detailpage&amp;amp;v=eJZx9c6YL8k"&gt;JSCamp Talk: Eric Bidelman - WebComponents are the Future&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://x-tags.org/"&gt;X-Tag - The Custom Elements Polylib&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://habrahabr.ru/post/210058/"&gt;Web Components — будущее Web&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;login: gsitex&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Ember.js</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/02/emberjs.html"/>
-    <id>http://blog.url.com/2014/05/02/emberjs.html</id>
-    <published>2014-05-01T18:00:00+00:00</published>
-    <updated>2014-05-08T11:37:05+00:00</updated>
+    <title>xip.io</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/08/2014-05-08-xipio.html"/>
+    <id>http://blog.url.com/2014/05/08/2014-05-08-xipio.html</id>
+    <published>2014-05-07T18:00:00+00:00</published>
+    <updated>2014-05-11T13:46:21+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;img alt="Ember.js" src="http://www.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a?s=400" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;DNS for any IP address&lt;/p&gt;
 
-&lt;h3&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://eviltrout.com/2013/02/10/why-discourse-uses-emberjs.html"&gt;Why Discourse uses Ember.js&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Interactivity&lt;/li&gt;
-&lt;li&gt;it&amp;rsquo;s simpler&lt;/li&gt;
-&lt;li&gt;Performance&lt;/li&gt;
-&lt;li&gt;API-First Development&lt;/li&gt;
-&lt;li&gt;String Templates vs. DOM templates (AngularJS)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://xip.io/"&gt;xip.io&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Discourse</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/02/discourse.html"/>
-    <id>http://blog.url.com/2014/05/02/discourse.html</id>
-    <published>2014-05-01T18:00:00+00:00</published>
-    <updated>2014-05-08T11:37:05+00:00</updated>
+    <title>Wildstar</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/08/2014-05-08-wildstar.html"/>
+    <id>http://blog.url.com/2014/05/08/2014-05-08-wildstar.html</id>
+    <published>2014-05-07T18:00:00+00:00</published>
+    <updated>2014-05-11T13:46:21+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;img alt="Discourse" src="http://www.discourse.org/images/logo.png" /&gt;&lt;/p&gt;
+    <content type="html">&lt;h2&gt;Open Beta Start&lt;/h2&gt;
 
-&lt;h3&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.discourse.org"&gt;Discourse&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Вертикальный ритм на Compass</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/01/compass.html"/>
-    <id>http://blog.url.com/2014/05/01/compass.html</id>
-    <published>2014-04-30T18:00:00+00:00</published>
-    <updated>2014-05-08T11:37:05+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Create a vertical rhythm for your site by setting the &lt;strong&gt;$base-font-size&lt;/strong&gt; and &lt;strong&gt;$base-line-height&lt;/strong&gt; variables and then including the &lt;strong&gt;establish-baseline&lt;/strong&gt; mixin at the root of your document.&lt;/p&gt;
-&lt;div class="highlight sass"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1&lt;/pre&gt;&lt;pre class="lineno"&gt;2&lt;/pre&gt;&lt;pre class="lineno"&gt;3&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$base-font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;16px&lt;/span&gt;
-&lt;span class="nv"&gt;$base-line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;24px&lt;/span&gt;
-&lt;span class="k"&gt;@include&lt;/span&gt; &lt;span class="nd"&gt;establish-baseline&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;h3&gt;Mixins&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;leader&lt;/strong&gt;($lines, $font-size, $property)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;trailer&lt;/strong&gt;($lines, $font-size, $property)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://compass-style.org/reference/compass/typography/vertical_rhythm/"&gt;Vertical Rhythm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://atendesigngroup.com/blog/vertical-rhythm-compass"&gt;Vertical Rhythm with Compass&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://webdesign.tutsplus.com/articles/improving-layout-with-vertical-rhythm--webdesign-14070"&gt;Improving Layout With Vertical Rhythm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>CakePHP</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/01/cakephp.html"/>
-    <id>http://blog.url.com/2014/05/01/cakephp.html</id>
-    <published>2014-04-30T18:00:00+00:00</published>
-    <updated>2014-05-08T11:37:05+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img alt="CakePHP" src="http://cakephp.org/img/cake-logo.png" /&gt;&lt;/p&gt;
-
-&lt;h3&gt;JS&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://hantsy.blogspot.com/search/label/CakePHP"&gt;AngularJS CakePHP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.slideshare.net/jtrapp07/introduction-to-ember"&gt;Ember.js for a CakePHP Developer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Download Client&lt;/p&gt;
 </content>
   </entry>
 </feed>
