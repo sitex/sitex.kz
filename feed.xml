@@ -5,27 +5,55 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-05-08T18:00:00+00:00</updated>
+  <updated>2014-05-11T18:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>phpDocumentor</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/09/2014-05-09-phpdoc.html"/>
-    <id>http://blog.url.com/2014/05/09/2014-05-09-phpdoc.html</id>
-    <published>2014-05-08T18:00:00+00:00</published>
-    <updated>2014-05-11T13:46:21+00:00</updated>
+    <title>PHP Filename</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/12/2014-05-12-php.html"/>
+    <id>http://blog.url.com/2014/05/12/2014-05-12-php.html</id>
+    <published>2014-05-11T18:00:00+00:00</published>
+    <updated>2014-05-12T13:51:30+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html"></content>
+    <content type="html">&lt;h2&gt;Idea&lt;/h2&gt;
+
+&lt;p&gt;Использовать sha1_file($filename) для генерации имени файла на основании самого файла&lt;/p&gt;
+
+&lt;p&gt;Плюсы&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Уникальные названия файлов&lt;/li&gt;
+&lt;li&gt;Исключаем дубликаты&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Минусы&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;При удалении могут пропасть файл в другой материале&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Swipebox</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/11/2014-05-11-swipebox.html"/>
+    <id>http://blog.url.com/2014/05/11/2014-05-11-swipebox.html</id>
+    <published>2014-05-10T18:00:00+00:00</published>
+    <updated>2014-05-12T13:51:30+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;http://brutaldesign.github.io/swipebox/&lt;/p&gt;
+</content>
   </entry>
   <entry>
     <title>ScrumDesk</title>
     <link rel="alternate" href="http://blog.url.com/2014/05/09/2014-05-09-scrum.html"/>
     <id>http://blog.url.com/2014/05/09/2014-05-09-scrum.html</id>
     <published>2014-05-08T18:00:00+00:00</published>
-    <updated>2014-05-11T13:46:21+00:00</updated>
+    <updated>2014-05-12T13:51:30+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -35,11 +63,36 @@
 </content>
   </entry>
   <entry>
+    <title>phpDocumentor</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/09/2014-05-09-phpdoc.html"/>
+    <id>http://blog.url.com/2014/05/09/2014-05-09-phpdoc.html</id>
+    <published>2014-05-08T18:00:00+00:00</published>
+    <updated>2014-05-12T13:51:30+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html"></content>
+  </entry>
+  <entry>
+    <title>Wildstar</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/08/2014-05-08-wildstar.html"/>
+    <id>http://blog.url.com/2014/05/08/2014-05-08-wildstar.html</id>
+    <published>2014-05-07T18:00:00+00:00</published>
+    <updated>2014-05-12T13:51:30+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2&gt;Open Beta Start&lt;/h2&gt;
+
+&lt;p&gt;Download Client&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Middleman</title>
     <link rel="alternate" href="http://blog.url.com/2014/05/08/2014-05-08-middleman.html"/>
     <id>http://blog.url.com/2014/05/08/2014-05-08-middleman.html</id>
     <published>2014-05-07T18:00:00+00:00</published>
-    <updated>2014-05-11T13:46:21+00:00</updated>
+    <updated>2014-05-12T13:51:30+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -48,50 +101,6 @@
 &lt;p&gt;Данные можно хранить в файлах типа .yml/.yaml или .json в папке &amp;ldquo;data&amp;rdquo;. Так же можно использовать вложенные папки. Например, файл &amp;ldquo;data/people/tom.yml&amp;rdquo; доступен как &amp;ldquo;data.people.tom&amp;rdquo;. Для проверки синтаксиса пригодится &lt;a href="http://yaml-online-parser.appspot.com/"&gt;Online Parser&lt;/a&gt;. Официальная документация &lt;a href="http://middlemanapp.com/advanced/local-data/"&gt;Local Data&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Template Helpers&lt;/h2&gt;
-</content>
-  </entry>
-  <entry>
-    <title>ngrok</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/08/2014-05-08-ngrok.html"/>
-    <id>http://blog.url.com/2014/05/08/2014-05-08-ngrok.html</id>
-    <published>2014-05-07T18:00:00+00:00</published>
-    <updated>2014-05-11T13:46:21+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Introspected tunnels to localhost&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://ngrok.com/"&gt;ngrok&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;login: gsitex&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>xip.io</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/08/2014-05-08-xipio.html"/>
-    <id>http://blog.url.com/2014/05/08/2014-05-08-xipio.html</id>
-    <published>2014-05-07T18:00:00+00:00</published>
-    <updated>2014-05-11T13:46:21+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;DNS for any IP address&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://xip.io/"&gt;xip.io&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Wildstar</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/08/2014-05-08-wildstar.html"/>
-    <id>http://blog.url.com/2014/05/08/2014-05-08-wildstar.html</id>
-    <published>2014-05-07T18:00:00+00:00</published>
-    <updated>2014-05-11T13:46:21+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;h2&gt;Open Beta Start&lt;/h2&gt;
-
-&lt;p&gt;Download Client&lt;/p&gt;
 </content>
   </entry>
 </feed>
