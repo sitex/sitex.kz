@@ -1,7 +1,7 @@
 %h1
   #{tagname}
-%ul
-  - articles.each do |article|
-    %p.date
-      %span= article.date.strftime('%d %B %Y')
-    = article.body
+
+- articles.each do |article|
+  %p.date
+    %span= article.date.strftime('%d %B %Y')
+  = article.body
