@@ -5,16 +5,32 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-05-19T18:00:00+00:00</updated>
+  <updated>2014-05-20T18:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Middleman</title>
+    <link rel="alternate" href="http://blog.url.com/2014/05/21/2014-05-21-middleman.html"/>
+    <id>http://blog.url.com/2014/05/21/2014-05-21-middleman.html</id>
+    <published>2014-05-20T18:00:00+00:00</published>
+    <updated>2014-05-21T13:34:09+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2&gt;Pass dynamic content to template in Middleman&lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;data/projects.yml (contains project details)&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/14823169/pass-dynamic-content-to-template-in-middleman"&gt;stackoverflow&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Grunt</title>
     <link rel="alternate" href="http://blog.url.com/2014/05/20/2014-05-20-grunt.html"/>
     <id>http://blog.url.com/2014/05/20/2014-05-20-grunt.html</id>
     <published>2014-05-19T18:00:00+00:00</published>
-    <updated>2014-05-20T13:19:54+00:00</updated>
+    <updated>2014-05-21T13:34:09+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -46,7 +62,7 @@
     <link rel="alternate" href="http://blog.url.com/2014/05/19/2014-05-16-zeal.html"/>
     <id>http://blog.url.com/2014/05/19/2014-05-16-zeal.html</id>
     <published>2014-05-18T18:00:00+00:00</published>
-    <updated>2014-05-20T13:19:54+00:00</updated>
+    <updated>2014-05-21T13:34:09+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -65,7 +81,7 @@
     <link rel="alternate" href="http://blog.url.com/2014/05/16/2014-05-16-browser.html"/>
     <id>http://blog.url.com/2014/05/16/2014-05-16-browser.html</id>
     <published>2014-05-15T18:00:00+00:00</published>
-    <updated>2014-05-20T13:19:54+00:00</updated>
+    <updated>2014-05-21T13:34:09+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -79,7 +95,7 @@
     <link rel="alternate" href="http://blog.url.com/2014/05/16/2014-05-16-croogo.html"/>
     <id>http://blog.url.com/2014/05/16/2014-05-16-croogo.html</id>
     <published>2014-05-15T18:00:00+00:00</published>
-    <updated>2014-05-20T13:19:54+00:00</updated>
+    <updated>2014-05-21T13:34:09+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -107,7 +123,7 @@
     <link rel="alternate" href="http://blog.url.com/2014/05/12/2014-05-12-php.html"/>
     <id>http://blog.url.com/2014/05/12/2014-05-12-php.html</id>
     <published>2014-05-11T18:00:00+00:00</published>
-    <updated>2014-05-20T13:19:54+00:00</updated>
+    <updated>2014-05-21T13:34:09+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -127,18 +143,6 @@
 &lt;ul&gt;
 &lt;li&gt;При удалении могут пропасть файл в другой материале&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Swipebox</title>
-    <link rel="alternate" href="http://blog.url.com/2014/05/11/2014-05-11-swipebox.html"/>
-    <id>http://blog.url.com/2014/05/11/2014-05-11-swipebox.html</id>
-    <published>2014-05-10T18:00:00+00:00</published>
-    <updated>2014-05-20T13:19:54+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;http://brutaldesign.github.io/swipebox/&lt;/p&gt;
 </content>
   </entry>
 </feed>
