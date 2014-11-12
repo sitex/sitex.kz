@@ -8,6 +8,9 @@
 $line_width: 36em;
 $font-family: 'PT Sans', sans-serif;
 
+/* susy 1 */
+@import "susyone";
+
 /* Resets */
 @import "compass";
 @import "compass/reset";
