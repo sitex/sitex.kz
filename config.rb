@@ -130,7 +130,7 @@ end
 
 configure :build do
   activate :disqus do |d|
-    d.shortname = "Sitex Blog"
+    d.shortname = "sitex"
   end
   ignore 'pages.html'
   # Write CNAME
