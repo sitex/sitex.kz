@@ -13,7 +13,7 @@ Time.zone = "Asia/Almaty"
 
 
 activate :directory_indexes
-activate :livereload, :host => "localhost"
+# activate :livereload, :host => "localhost"
 # activate :i18n, langs: [lang]
 activate :syntax, :line_numbers => true
 # set :build_dir, "build-#{lang}"
