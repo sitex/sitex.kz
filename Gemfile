@@ -4,6 +4,8 @@ source 'https://rails-assets.org'
 # middleman
 gem 'middleman', '~> 3.3.5'
 
+gem "rake"
+
 # use oga for html parser (without nokogiri)
 gem 'middleman-blog', :github => '5t111111/middleman-blog',
                       :branch => 'with-oga'
@@ -38,6 +40,8 @@ gem 'puma', '~> 2.9.2'
 
 # to serve static files
 gem 'rack-contrib', '~> 1.2.0'
+
+gem "middleman-gh-pages"
 
 # Heroku New Relic Addon
 gem 'newrelic_rpm'
