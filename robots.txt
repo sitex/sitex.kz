@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://sitex.kz/sitemap.xml.gz
