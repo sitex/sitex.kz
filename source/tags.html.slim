@@ -1,0 +1,14 @@
+---
+pageable: true
+--- 
+
+- title 'По тегам'
+
+h1
+  | Записи по тегам
+ul
+  - blog.tags.each do |tag, articles|
+    li.tag-list
+      a href="#{tag_path(tag)}"
+        .tag-label
+          | #{tag} (#{articles.size})

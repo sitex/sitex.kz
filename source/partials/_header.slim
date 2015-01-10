@@ -1,0 +1,29 @@
+#top-menu
+  .top-menu-wrapper
+    .top-menu-list
+      ul
+        li
+          a href="/"
+            | На главную
+        li
+          a href="/archives/"
+            | Архив
+        li
+          a href="/tags/"
+            | По тегам
+        li
+          a href="/by-year/"
+            | По годам
+        //li
+        //  a href="/feed.xml"
+        //    i.fa.fa-rss-square
+    .feed
+      a href="/feed.xml"
+        i.fa.fa-rss-square
+h1.logo
+  a href="/" title="#{site_title}"
+    - if site_title_logo
+      img src="/#{images_dir}/#{site_title_logo_image}" alt="title-logo"
+    - else
+      span.logo-text
+        = site_title

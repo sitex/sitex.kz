@@ -1,0 +1,8 @@
+- title 'По годам'
+
+h1
+  | Записи по годам
+ul.archive-list
+  - blog.articles.group_by { |a| a.date.year }.each do |year, articles|
+    li
+      = link_to "#{year} (#{articles.size})", blog_year_path(year)
