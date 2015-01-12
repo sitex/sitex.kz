@@ -13,7 +13,7 @@
     <link rel="alternate" href="http://sitex.kz/2015/01/10/music/"/>
     <id>http://sitex.kz/2015/01/10/music/</id>
     <published>2015-01-09T18:00:00+00:00</published>
-    <updated>2015-01-10T10:13:39+00:00</updated>
+    <updated>2015-01-12T14:28:00+00:00</updated>
     <summary type="html">&lt;h2 id="Где-искать?-Как-хранить?-Откуда-брать-новинки?"&gt;Где искать? Как хранить? Откуда брать новинки?&lt;/h2&gt;
 
 &lt;p&gt;Когда-то давно вся моя музыка хранилась на аудиокассетах. На смену кассетам пришли диски. Потом аудиозаписи перебрались на компьютер в виде гигобайтов mp3-файлов. Музыки стало так много, что сложно б...&lt;/p&gt;</summary>
@@ -35,7 +35,7 @@
     <link rel="alternate" href="http://sitex.kz/2014/11/30/launch/"/>
     <id>http://sitex.kz/2014/11/30/launch/</id>
     <published>2014-11-29T18:00:00+00:00</published>
-    <updated>2015-01-10T10:13:39+00:00</updated>
+    <updated>2015-01-12T14:28:00+00:00</updated>
     <summary type="html">&lt;p&gt;Новая версия блога.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;Новая версия блога.&lt;/p&gt;
@@ -46,7 +46,7 @@
     <link rel="alternate" href="http://sitex.kz/2014/05/08/ngrok/"/>
     <id>http://sitex.kz/2014/05/08/ngrok/</id>
     <published>2014-05-07T18:00:00+00:00</published>
-    <updated>2015-01-10T10:13:39+00:00</updated>
+    <updated>2015-01-12T14:28:00+00:00</updated>
     <summary type="html">&lt;p&gt;Introspected tunnels to localhost&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://ngrok.com/"&gt;ngrok&lt;/a&gt;&lt;/p&gt;
@@ -65,7 +65,7 @@
     <link rel="alternate" href="http://sitex.kz/2014/05/08/xipio/"/>
     <id>http://sitex.kz/2014/05/08/xipio/</id>
     <published>2014-05-07T18:00:00+00:00</published>
-    <updated>2015-01-10T10:13:39+00:00</updated>
+    <updated>2015-01-12T14:28:00+00:00</updated>
     <summary type="html">&lt;p&gt;DNS for any IP address&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="http://xip.io/"&gt;xip.io&lt;/a&gt;&lt;/p&gt;
@@ -80,7 +80,7 @@
     <link rel="alternate" href="http://sitex.kz/2014/05/01/links/"/>
     <id>http://sitex.kz/2014/05/01/links/</id>
     <published>2014-04-30T18:00:00+00:00</published>
-    <updated>2015-01-10T10:13:39+00:00</updated>
+    <updated>2015-01-12T14:28:00+00:00</updated>
     <summary type="html">&lt;h2 id="07-may-2014"&gt;07 May 2014&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -142,7 +142,7 @@
     <link rel="alternate" href="http://sitex.kz/2014/05/01/compass/"/>
     <id>http://sitex.kz/2014/05/01/compass/</id>
     <published>2014-04-30T18:00:00+00:00</published>
-    <updated>2015-01-10T10:13:39+00:00</updated>
+    <updated>2015-01-12T14:28:00+00:00</updated>
     <summary type="html">&lt;p&gt;Create a vertical rhythm for your site by setting the &lt;strong&gt;$base-font-size&lt;/strong&gt; and &lt;strong&gt;$base-line-height&lt;/strong&gt; variables and then including the &lt;strong&gt;establish-baseline&lt;/strong&gt; mixin at the root of your document.&lt;/p&gt;
 &lt;pre class="highlight sass"&gt;&lt;code&gt;&lt;span class="nv"&gt;$base-font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;16px&lt;/span&gt;
 &lt;span class="nv"&gt;$base-line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;24px&lt;/span&gt;
