@@ -1,0 +1,247 @@
+//colors
+$color_alabaster_approx: #f9f9f9;
+$color_mine_shaft_approx: #333;
+$color_fuscous_gray_approx: #555;
+$color_suva_gray_approx: #888;
+$color_bunker_85_approx: rgba(20, 20, 20, 0.85);
+$color_mountain_mist_approx: #909090;
+$color_tapa_approx: #757575;
+$white: #ffffff;
+$color_gallery_approx: #f0f0f0;
+$color_deep_cerulean_approx: #1478b1;
+$color_hippie_green_approx: #508b50;
+$color_tom_thumb_approx: #336137;
+$white_80: rgba(255,255,255,0.8);
+$black: #000;
+
+//fonts
+$font_0: Calibri;
+$font_1: Arial;
+$font_2: sans-serif;
+
+//@extend-elements
+//original selectors
+//.cbp-mc-form input, .cbp-mc-form textarea, .cbp-mc-form select
+%extend_1 {
+	font-family: $font_0, $font_1, $font_2;
+	line-height: 1.5;
+	font-size: 14px;
+	padding: 5px 10px;
+	color: $white;
+	display: block;
+	width: 100%;
+	background: $color_mountain_mist_approx;
+}
+
+
+html {
+	height: 100%;
+}
+body {
+	font-family: $font_0, $font_1, $font_2;
+	background: $color_alabaster_approx url(../images/bg.png);
+	font-weight: 300;
+	font-size: 15px;
+	color: $color_mine_shaft_approx;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+a {
+	color: $color_fuscous_gray_approx;
+	text-decoration: none;
+}
+h1 {
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 20px 0;
+	//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	text-shadow: 0 -1px 0 $color_suva_gray_approx;
+}
+.container {
+	max-width: 1170px;
+	position: relative;
+	margin: 0 auto;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: -1px 0 19px $color_bunker_85_approx;
+	min-height: 800px;
+	background: $color_alabaster_approx;
+	margin-top: 40px;
+	padding: 40px;
+	> header {
+		width: 90%;
+		max-width: 1240px;
+		margin: 0 auto;
+		position: relative;
+		padding: 0 30px 50px;
+		padding: 60px 30px 50px;
+		text-align: center;
+		h1 {
+			font-size: 34px;
+			line-height: 38px;
+			margin: 0 auto;
+			font-weight: 700;
+			color: $color_mine_shaft_approx;
+			span {
+				display: block;
+				font-size: 20px;
+				font-weight: 300;
+			}
+		}
+	}
+}
+.main {
+	h5 {
+		margin: 40px 0;
+		font-size: 22px;
+	}
+	h4 {
+		margin: 40px 0;
+		padding-top: 20px;
+		font-size: 24px;
+		border-top: 1px solid $color_mountain_mist_approx;
+	}
+	h3 {
+		margin: 0 0 40px 0;
+		font-size: 28px;
+		border-bottom: 1px solid $color_tapa_approx;
+		small {
+			font-size: 13px;
+			font-style: italic;
+			background: $color_tapa_approx;
+			color: $white;
+			padding: 10 20px;
+			margin-left: 20px;
+		}
+	}
+	> p {
+		text-align: center;
+		padding: 50px 20px;
+	}
+}
+.cbp-mc-form {
+	position: relative;
+	background: $color_tapa_approx;
+	padding-bottom: 20px;
+	&:before {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+	label {
+		display: block;
+		padding: 20px 5px 5px 2px;
+		font-size: 14px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		cursor: pointer;
+		color: $color_gallery_approx;
+		&:active + {
+			input {
+				outline: none;
+			}
+			textarea {
+				outline: none;
+			}
+		}
+	}
+	input {
+		@extend %extend_1;
+		border: 1px solid $white;
+		&:focus {
+			outline: none;
+		}
+		&.cbp-mc-submit {
+			border: none;
+			color: $white;
+			width: auto;
+			cursor: pointer;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 15px 30px;
+			font-size: 1.1em;
+			//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+			border-radius: 2px;
+			letter-spacing: 1px;
+			&:hover {
+				background: $color_deep_cerulean_approx;
+			}
+		}
+	}
+	textarea {
+		@extend %extend_1;
+		border: 1px solid $white;
+		min-height: 200px;
+		&:focus {
+			outline: none;
+		}
+	}
+	select {
+		@extend %extend_1;
+		&:focus {
+			outline: none;
+		}
+	}
+}
+.cbp-mc-column {
+	width: 33%;
+	padding: 10px 30px;
+	float: left;
+}
+.cbp-mc-submit-wrap {
+	text-align: center;
+	padding-top: 40px;
+	clear: both;
+}
+@media screen and(max-width: 70em) {
+	.cbp-mc-column {
+		width: 50%;
+		&:nth-child(3) {
+			width: 100%;
+		}
+	}
+}
+@media screen and(max-width: 48em) {
+	.cbp-mc-column {
+		width: 100%;
+		padding: 10px;
+	}
+}
+.header-top {
+	margin: 0 auto;
+	max-width: 1170px;
+	line-height: 44px;
+	font-size: 12px;
+	background: #508B50;
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: -1px 0 19px $color_bunker_85_approx;
+	a {
+		padding: 0 20px;
+		letter-spacing: 1px;
+		color: $color_mine_shaft_approx;
+		display: inline-block;
+		//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		text-shadow: 0 -1px 0 #9B9898;
+		border-right: 1px solid $color_tom_thumb_approx;
+		&:hover {
+			background: $white_80;
+			color: $black;
+		}
+	}
+	span.right {
+		float: right;
+		a {
+			float: left;
+			display: block;
+		}
+	}
+}
+#responsive_layouts h3 {
+	margin: 40px 0 20px;
+}

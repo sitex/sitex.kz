@@ -1,0 +1,845 @@
+//colors
+$color_alto_approx: #ddd;
+$color_celeste_approx: #ccc;
+$color_shuttle_gray_approx: #576979;
+$color_log_cabin_approx: #222;
+$color_iron_approx: #d6d6d6;
+$color_suva_gray_approx: #888;
+$color_mine_shaft_approx: #333;
+$color_bunker_approx: #121212;
+$color_shark_approx: #2a2a2a;
+$color_mountain_mist_approx: #999;
+$color_tundora_approx: #454545;
+$color_shark_70_approx: rgba(41,41,41,0.7);
+$color_black_30_approx: rgba(3,3,3,0.3);
+$color_star_dust_approx: #9f9f9f;
+$black_50: rgba(0,0,0,.5);
+$color_storm_dust_approx: #606060;
+$color_gallery_approx: #eee;
+$white: #fff;
+$black: #000;
+$color_rangoon_green_approx: #1b1b1b;
+$color_mine_shaft_70_approx: rgba(48,48,48,0.7);
+$white_90: rgba(255,255,255,0.9);
+$black_20: rgba(0,0,0,0.2);
+$white_50: rgba(255,255,255,0.5);
+
+//@extend-elements
+%extend_1 {
+    //Instead of the line below you could use @includebox-sizing($bs)
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+//original selectors
+//.og-grid li>a, .og-grid li>a img
+%extend_2 {
+    border: 0;
+    outline: 0;
+    display: block;
+    position: relative;
+}
+
+//original selectors
+//.og-close::before, .og-close::after
+%extend_3 {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    height: 1px;
+    background: $color_suva_gray_approx;
+    //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: rotate(45deg);
+}
+
+//original selectors
+//.og-fullimg, .og-details
+%extend_4 {
+    width: 50%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+//original selectors
+//.wagwep-container ul#portfolio-filter li.current a, ul#portfolio-filter a:hover
+%extend_5 {
+    text-decoration: none;
+    background: $color_gallery_approx;
+    color: $color_log_cabin_approx;
+}
+
+
+* {
+    @extend %extend_1;
+    &:after {
+        @extend %extend_1;
+    }
+    &:before {
+        @extend %extend_1;
+    }
+}
+.clearfix {
+    *zoom: 1;
+    &:before {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
+.og-grid {
+    list-style: none;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    li {
+        display: inline-block;
+        margin: 0;
+        vertical-align: top;
+        &.hidden {
+            display: none;
+        }
+        a {
+            overflow: hidden;
+            &.unhoverdir {
+                overflow: visible;
+            }
+            figure {
+                position: absolute;
+                background: $color_mine_shaft_approx;
+                background: $color_mine_shaft_70_approx;
+                width: 100%;
+                height: 100%;
+                span {
+                    display: block;
+                    padding: 10px 0;
+                    margin: 40px 20px 20px;
+                    font-weight: normal;
+                    color: $white_90;
+                    //Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+                    text-shadow: 1px 1px 1px $black_20;
+                    border-bottom: 1px solid $white_50;
+                }
+            }
+        }
+    }
+    li>a {
+        @extend %extend_2;
+        img {
+            @extend %extend_2;
+        }
+    }
+    &.effect-fallperspective {
+        //Instead of the line below you could use @includeperspective($p)
+        perspective: 1300px;
+    }
+    &.effect-fly {
+        //Instead of the line below you could use @includeperspective($p)
+        perspective: 1300px;
+    }
+    &.effect-flip {
+        //Instead of the line below you could use @includeperspective($p)
+        perspective: 1300px;
+    }
+    &.effect-helix {
+        //Instead of the line below you could use @includeperspective($p)
+        perspective: 1300px;
+    }
+    &.effect-popup {
+        //Instead of the line below you could use @includeperspective($p)
+        perspective: 1300px;
+    }
+}
+.og-pointer {
+    top: auto;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: relative;
+    pointer-events: none;
+    border-bottom-color: $color_log_cabin_approx;
+    border-width: 15px;
+    left: 50%;
+    margin: -20px 0 0 -15px;
+}
+.og-expander {
+    position: absolute;
+    background: $color_log_cabin_approx;
+    color: $color_iron_approx;
+    top: auto;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+    text-align: left;
+    height: 0;
+    overflow: hidden;
+}
+.og-expander-inner {
+    padding: 30px;
+    height: 100%;
+}
+.og-close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.og-close {
+    &:before {
+        @extend %extend_3;
+    }
+    &:after {
+        @extend %extend_3;
+        //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: rotate(-45deg);
+    }
+}
+.og-close:hover {
+    &:before {
+        background: $color_mine_shaft_approx;
+    }
+    &:after {
+        background: $color_mine_shaft_approx;
+    }
+}
+.og-fullimg {
+    @extend %extend_4;
+    text-align: center;
+    img {
+        display: inline-block;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+.og-details {
+    @extend %extend_4;
+    padding: 0 20px;
+    .infosep {
+        border-bottom: 1px solid $color_bunker_approx;
+        //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: 0 1px $color_shark_approx;
+        margin: 15px 0;
+    }
+    h3 {
+        font-weight: 300;
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: $color_mountain_mist_approx;
+        padding-bottom: 20px;
+    }
+    iframe {
+        max-width: 400px;
+        max-height: 250px;
+        margin-bottom: 0;
+    }
+    a {
+        &.link-button {
+            padding: 8px 10px;
+            background-color: $color_tundora_approx;
+            //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+            border-radius: 1px;
+            border: 1px solid $color_bunker_approx;
+            //Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+            text-shadow: 0 -1px 0 $color_shark_70_approx,0 1px 0 $color_black_30_approx;
+            word-wrap: normal;
+            color: $color_star_dust_approx !important;
+            cursor: pointer !important;
+            font-size: 11px;
+            font-weight: bold;
+            text-align: center;
+            //Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+            text-shadow: 0 -1px 0 $black_50;
+            white-space: normal;
+            margin-left: 10px;
+        }
+        &.first {
+            margin-left: 0;
+        }
+        &:hover {
+            background-color: $color_storm_dust_approx;
+        }
+    }
+}
+.og-loading {
+    width: 20px;
+    height: 20px;
+    //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+    border-radius: 50%;
+    background: $color_alto_approx;
+    //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: 0 0 1px $color_celeste_approx,15px 30px 1px $color_celeste_approx,-15px 30px 1px $color_celeste_approx;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    animation: loader .5s infinite ease-in-out both;
+}
+@-webkit-keyframes loader {
+    0% {
+        background: $color_alto_approx;
+    }
+    33% {
+        background: $color_celeste_approx;
+        //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: 0 0 1px $color_celeste_approx,15px 30px 1px $color_celeste_approx,-15px 30px 1px $color_alto_approx;
+    }
+    66% {
+        background: $color_celeste_approx;
+        //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: 0 0 1px $color_celeste_approx,15px 30px 1px $color_alto_approx,-15px 30px 1px $color_celeste_approx;
+    }
+}
+@-moz-keyframes loader {
+    0% {
+        background: $color_alto_approx;
+    }
+    33% {
+        background: $color_celeste_approx;
+        //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: 0 0 1px $color_celeste_approx,15px 30px 1px $color_celeste_approx,-15px 30px 1px $color_alto_approx;
+    }
+    66% {
+        background: $color_celeste_approx;
+        //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: 0 0 1px $color_celeste_approx,15px 30px 1px $color_alto_approx,-15px 30px 1px $color_celeste_approx;
+    }
+}
+@keyframes loader {
+    0% {
+        background: $color_alto_approx;
+    }
+    33% {
+        background: $color_celeste_approx;
+        //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: 0 0 1px $color_celeste_approx,15px 30px 1px $color_celeste_approx,-15px 30px 1px $color_alto_approx;
+    }
+    66% {
+        background: $color_celeste_approx;
+        //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: 0 0 1px $color_celeste_approx,15px 30px 1px $color_alto_approx,-15px 30px 1px $color_celeste_approx;
+    }
+}
+.wagwep-container {
+    overflow: hidden;
+    ul#portfolio-filter {
+        float: left;
+        font-size: 16px;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+        border-bottom: 1px solid $color_alto_approx;
+        li {
+            float: left;
+            line-height: 16px;
+            margin: 0;
+            padding: 6px;
+            &:last-child {
+                border-right: 0;
+                margin-right: 0;
+                padding-right: 0;
+            }
+            &.current a {
+                @extend %extend_5;
+                color: $color_mine_shaft_approx;
+                background: $color_storm_dust_approx;
+                color: $white;
+            }
+        }
+        a {
+            color: $color_tundora_approx;
+            text-decoration: none;
+            border: 0;
+            background: 0;
+            margin: 0;
+            padding: 6px 12px;
+            //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+            border-radius: 4px;
+        }
+    }
+}
+.elastislide-list {
+    list-style-type: none;
+    display: none;
+}
+.elastislide-carousel {
+    overflow: hidden;
+    position: relative;
+    ul li {
+        min-width: 20px;
+        margin: 0;
+        a {
+            display: inline-block;
+            width: 100%;
+            padding: 0;
+            img {
+                display: block;
+                border: 2px solid $color_mine_shaft_approx;
+                max-width: 100%;
+                &.selected {
+                    border: 2px solid $color_mountain_mist_approx;
+                }
+            }
+        }
+    }
+}
+.elastislide-wrapper {
+    position: relative;
+    background-color: $color_mine_shaft_approx;
+    margin: 0 auto;
+    min-height: 60px;
+    //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: inset 0 0 10px $black;
+    &.elastislide-loading {
+        background-image: url(../images/loading.gif);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    nav span {
+        position: absolute;
+        background: $color_rangoon_green_approx url(../images/nav.png) no-repeat 4px 3px;
+        width: 23px;
+        height: 23px;
+        //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+        border-radius: 50%;
+        text-indent: -9000px;
+        cursor: pointer;
+        opacity: .8;
+        &:hover {
+            opacity: 1.0;
+        }
+    }
+}
+.elastislide-horizontal {
+    padding: 10px 40px;
+    ul {
+        white-space: nowrap;
+        li {
+            height: 100%;
+            display: inline-block;
+        }
+    }
+    nav span {
+        top: 50%;
+        left: 10px;
+        margin-top: -11px;
+        &.elastislide-next {
+            right: 10px;
+            left: auto;
+            background-position: 4px -17px;
+        }
+    }
+}
+.elastislide-vertical {
+    padding: 40px 10px;
+    ul li {
+        display: block;
+    }
+    nav span {
+        top: 10px;
+        left: 50%;
+        margin-left: -11px;
+        background-position: -17px 5px;
+        &.elastislide-next {
+            bottom: 10px;
+            top: auto;
+            background-position: -17px -18px;
+        }
+    }
+}
+@-webkit-keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes moveUp {
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes moveUp {
+    to {
+        opacity: 1;
+    }
+}
+@keyframes moveUp {
+    to {
+        //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes scaleUp {
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes scaleUp {
+    to {
+        opacity: 1;
+    }
+}
+@keyframes scaleUp {
+    to {
+        //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fallPerspective {
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fallPerspective {
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fallPerspective {
+    100% {
+        //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: translateZ(0) translateY(0) rotateX(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fly {
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fly {
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fly {
+    100% {
+        //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes flip {
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes flip {
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flip {
+    100% {
+        //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes helix {
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes helix {
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes helix {
+    100% {
+        //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: rotateY(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes popUp {
+    70% {
+        opacity: .8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes popUp {
+    70% {
+        opacity: .8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes popUp {
+    70% {
+        //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: scale(1.1);
+        opacity: .8;
+        animation-timing-function: ease-out;
+    }
+    100% {
+        //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@media screen and(max-width:600px) {
+    nav#porfolio-nav {
+        height: auto;
+        ul {
+            width: 100%;
+            display: block;
+            height: auto;
+        }
+        li {
+            width: 50%;
+            float: left;
+            position: relative;
+            a {
+                border-bottom: 1px solid $color_shuttle_gray_approx;
+                border-right: 1px solid $color_shuttle_gray_approx;
+            }
+        }
+        a {
+            text-align: left;
+            width: 100%;
+            text-indent: 25px;
+        }
+    }
+}
+@media only screen and(max-width :480px) {
+    .og-expander {
+        h3 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 12px;
+        }
+        a {
+            font-size: 11px;
+        }
+    }
+    .og-expander-inner {
+        padding: 10px;
+    }
+    .og-fullimg {
+        height: 30%;
+        width: 100%;
+    }
+    .og-details {
+        width: 100%;
+        margin-top: 5px;
+        h3 {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+        p {
+            padding-bottom: 10px;
+        }
+        .infosep {
+            margin: 10px 0;
+        }
+    }
+    .elastislide-wrapper {
+        max-width: 300px;
+    }
+    nav#porfolio-nav {
+        border-bottom: 0;
+        ul {
+            height: auto;
+        }
+    }
+    .og-grid .sep {
+        display: none;
+    }
+}
+@media only screen and(max-width :320px) {
+    .og-details {
+        h3 {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+        p {
+            padding-bottom: 10px;
+        }
+        .infosep {
+            margin: 10px 0;
+        }
+    }
+    nav#porfolio-nav li {
+        display: block;
+        float: none;
+        width: 100%;
+        a {
+            border-bottom: 1px solid $color_shuttle_gray_approx;
+        }
+    }
+}
+@media(min-width:1200px) {
+    .og-expander {
+        h3 {
+            font-size: 35px;
+        }
+        p {
+            font-size: 13px;
+        }
+        a {
+            font-size: 12px;
+        }
+    }
+}
+@media(min-width:768px) and(max-width:979px) {
+    .og-expander {
+        h3 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 12px;
+        }
+        a {
+            font-size: 11px;
+        }
+    }
+    .og-grid .sep {
+        margin: 20px 10px;
+        height: 80%;
+    }
+}
+@media(max-width:767px) {
+    .og-expander {
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 12px;
+        }
+        a {
+            font-size: 11px;
+        }
+    }
+    .og-fullimg {
+        height: 40%;
+        width: 100%;
+    }
+    .og-details {
+        width: 100%;
+        margin-top: 5px;
+        p {
+            padding-bottom: 10px;
+        }
+        .infosep {
+            margin: 12px 0;
+        }
+    }
+    .elastislide-wrapper {
+        max-width: 300px;
+        padding-bottom: 5px;
+    }
+    .og-grid .sep {
+        display: none;
+    }
+}
+ul#portfolio-filter a:hover {
+    @extend %extend_5;
+}
+.no-js .elastislide-list {
+    display: block;
+}
+.og-grid.effect-opacity li.animate {
+    animation: fadeIn .65s ease forwards;
+}
+.og-grid.effect-moveup li.animate {
+    //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateY(200px);
+    animation: moveUp .65s ease forwards;
+}
+.og-grid.effect-scaleup li.animate {
+    //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: scale(0.6);
+    animation: scaleUp .65s ease-in-out forwards;
+}
+.og-grid.effect-fallperspective li.animate {
+    //Instead of the line below you could use @includetransform-style($style)
+    transform-style: preserve-3d;
+    //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+    animation: fallPerspective .8s ease-in-out forwards;
+}
+.og-grid.effect-fly li.animate {
+    //Instead of the line below you could use @includetransform-style($style)
+    transform-style: preserve-3d;
+    //Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+    transform-origin: 50% 50% -300px;
+    //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: rotateX(-180deg);
+    animation: fly .8s ease-in-out forwards;
+}
+.og-grid.effect-flip li.animate {
+    //Instead of the line below you could use @includetransform-style($style)
+    transform-style: preserve-3d;
+    //Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+    transform-origin: 0 0;
+    //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: rotateX(-80deg);
+    animation: flip .8s ease-in-out forwards;
+}
+.og-grid.effect-helix li.animate {
+    //Instead of the line below you could use @includetransform-style($style)
+    transform-style: preserve-3d;
+    //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: rotateY(-180deg);
+    animation: helix .8s ease-in-out forwards;
+}
+.og-grid.effect-popup li.animate {
+    //Instead of the line below you could use @includetransform-style($style)
+    transform-style: preserve-3d;
+    //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: scale(0.4);
+    animation: popUp .8s ease-in forwards;
+}
+nav#porfolio-nav {
+    width: 100%;
+    position: relative;
+    ul {
+        padding: 0;
+        margin: 0 auto;
+    }
+    li {
+        display: inline;
+        float: left;
+        a {
+            border-right: 1px solid $color_shuttle_gray_approx;
+            //Instead of the line below you could use @includebox-sizing($bs)
+            box-sizing: border-box;
+        }
+        &:last-child a {
+            border-right: 0;
+        }
+    }
+}
